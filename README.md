@@ -7,3 +7,7 @@ A Docker image is a read-only blueprint (template) used to create containers.
 
 📸 Image = Blueprint / Snapshot
 📦 Container = Running instance of that image
+If you build a Docker image with Java inside it, then:
+
+👉 You DO NOT need Java installed on your system
+👉 The app will run inside the container with its own Java environment
